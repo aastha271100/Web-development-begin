@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>week 3 project</title>
+	<script type="text/javascript">
+		function addtext() {
+			var name=document.getElementById("name1").value;
+            if(name!="")
+            	document.getElementById("test").innerHTML="hello "+ name;
+            else
+            	document.getElementById("test").innerHTML="feeling shy?";
+		}
+	</script>
+</head>
+<body onload="alert('Nice to Meet You');">
+	<h1>javascript program</h1>
+	<input id="name1" type="text"/> <em>Enter your name</em>
+	<br>
+	<button onclick="addtext()"> Click here</button>
+	<p id="test" style="color:blue;font-size: 200%;" ></p>
+
+</body>
+</html>

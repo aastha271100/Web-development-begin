@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>week 5 project</title>
+	<script type="text/javascript">
+		function firstname() {
+		var name=document.getElementById("name").value;
+		var valid=/[A-Za-z]{5}/
+		if(valid.test(name)){
+		document.getElementById("firstname").innerHTML="Valid"
+	}
+	else{
+	document.getElementById("firstname").innerHTML="Invalid"
+}
+}
+       function print(){
+       	document.getElementById("extra").innerHTML="YOU HAVE COMPLETED THE FORM"
+       }
+
+	
+</script>
+</head>
+<body><
+	<form>
+	<table border="0">
+		<tr>
+			<td>NAME</td>
+			<td><input type="text" id='name' onblur="firstname()" required></td>
+			<td><span id="firstname">Atleast 5 characters</span></td>
+		</tr>
+		<tr>
+			<td>EMAIL</td>
+			<td><input type="email" id='name' placeholder="xxxx@xx.com"></td>
+			<td><span>&nbsp</span></td>
+		</tr>
+		<tr>
+			<td>DATE OF BIRTH</td>
+			<td><input type="date" id='birth'></td>
+			<td><span>dd-mm-yyyy</span></td>
+		</tr>
+		<tr>
+			<td>FAV NUMBER</td>
+			<td><input type="number" id='num' min='1' max='9'></td>
+			<td><span>1-9</span></td>
+		</tr>
+		<tr>
+			<td>FAV COLOR</td>
+			<td><input type="color" id="col"></td>
+			<td><span>&nbsp</span></td>
+		</tr>
+		<tr>
+			<td colspan="3"><button onclick="print()">
+				Click Here
+			</button></td>
+		</tr>
+	</table>
+</form>
+<p id="extra"></p>
+</body>
+</html>
