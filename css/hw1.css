@@ -1,0 +1,120 @@
+body{
+	padding: 1%;
+	margin:1%;
+	font-size: large;
+	background-color: #ffffff; 
+}
+
+header{
+	background-color: #1d1b31;
+	background-image:url('flywheel.jpg');
+	background-size:110%;
+	padding: 4%;
+}
+h1{
+	color: #ffffff;
+	font-variant: small-caps;
+	font-size:25px;
+	text-align: center;
+	padding: 1&
+}
+nav a{ width:20%;
+	display: inline-block;
+	font-size:20px;
+	text-align: center;
+	background-color: rgba(197,197,197,2);
+	color: #000000;
+	margin:1%;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	-o-border-radius:10px;
+	border-radius:10px;
+	text-decoration: none;
+	padding: 1%; 
+}
+.active{
+	color:#ffffff;
+  background-color:#555555;
+  text-transform:uppercase;
+}
+.left{
+  width:20%;
+  display:inline-block;
+      float:left;
+  background-color:rgb(118,118,42);
+}
+.right{
+	width:70%;
+  display:inline-block;
+  margin:1%;
+  background-color:#ffffff;
+  }
+h2{
+	color: #e4e11d;
+	font-variant: small-caps;
+}
+
+img{ width:200px;
+	display: inline-block;
+	background-color: #ffffff;
+	border:1px solid #000000;
+	padding: 0%;
+	margin:10% 15% 0%;
+	float:left;
+}
+/* Table Styling */
+table {
+    padding: 2%;
+    margin: 0 auto;
+    line-height: 50px;
+    width: 65%;
+    padding-bottom: 5%;
+}
+
+/* Table Header Styling */
+th {
+    background-color: 	#9ACD32;
+    padding: 2%;
+    font-variant: small-caps;
+    font-size: 100%;
+    color: #ffffff;
+    line-height: 40px;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 2px solid #339933;
+}
+
+/*Make the table text in two columns to the right centered*/
+th, tr td {
+    text-align: center;
+}
+
+/*Make the table text in the column to the left left-aligned*/
+th:first-child, tr td:first-child {
+    text-align: left;
+}
+
+/* Set opacity of table rows*/
+tr td {
+    opacity: 0.6;
+}
+
+
+/*Change opacity of table rows when hovered over*/
+tr:hover td {
+    opacity: 1;
+    color: #339933;
+    font-weight: bold;
+    font-size:100%;
+    line-height: 60px;
+}
+
+/*Styling the table cells*/
+td {
+    background-color: #90EE90;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 90%;
+    border-bottom: 2px solid #ffffff;
+}
+
+
